@@ -17,5 +17,5 @@ services:
     - './etc-pihole:/etc/pihole'
     - './etc-dnsmasq.d:/etc/dnsmasq.d'
     cap_add:
-      - NET_ADMIN
+    - NET_ADMIN
     restart: unless-stopped
